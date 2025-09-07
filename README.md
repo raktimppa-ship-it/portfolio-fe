@@ -253,7 +253,3 @@ If you have any questions or need help:
 - **Netlify** for seamless deployment
 
 ---
-
-**Built with ❤️ and AI assistance**
-
-**Happy coding! 🎉**
