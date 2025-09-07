@@ -13,8 +13,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <span>© 2024 John Doe.</span>              
-              <span>in New York</span>
+              <span>© 2024 John Doe.</span>
             </div>
           </div>
         </div>
