@@ -30,11 +30,11 @@ const Hero = () => {
           <div className="space-y-6">
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
               Creative
-              <span className="block bg-gradient-to-r from-violet-400 to-blue-400 bg-clip-text text-transparent">
+              <span className="block text-white">
                 Graphic Designer
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
               Bringing brands to life through innovative design with over 7 years of professional experience. 
               Specializing in UI/UX, Brand Identity, and Digital Marketing solutions.
             </p>
@@ -53,20 +53,20 @@ const Hero = () => {
           {/* Enhanced Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-white/10">
-              <div className="text-3xl md:text-4xl font-bold text-violet-300">7+</div>
-              <div className="text-sm text-white/80 mt-2">Years Experience</div>
+              <div className="text-3xl md:text-4xl font-bold text-white">7+</div>
+              <div className="text-sm text-white mt-2">Years Experience</div>
             </div>
             <div className="text-center bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-white/10">
-              <div className="text-3xl md:text-4xl font-bold text-blue-300">40+</div>
-              <div className="text-sm text-white/80 mt-2">Client Accounts</div>
+              <div className="text-3xl md:text-4xl font-bold text-white">40+</div>
+              <div className="text-sm text-white mt-2">Client Accounts</div>
             </div>
             <div className="text-center bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-white/10">
-              <div className="text-3xl md:text-4xl font-bold text-green-300">60%</div>
-              <div className="text-sm text-white/80 mt-2">Brand Recognition</div>
+              <div className="text-3xl md:text-4xl font-bold text-white">60%</div>
+              <div className="text-sm text-white mt-2">Brand Recognition</div>
             </div>
             <div className="text-center bg-white/5 rounded-lg p-6 backdrop-blur-sm border border-white/10">
-              <div className="text-3xl md:text-4xl font-bold text-orange-300">4</div>
-              <div className="text-sm text-white/80 mt-2">Team Members</div>
+              <div className="text-3xl md:text-4xl font-bold text-white">4</div>
+              <div className="text-sm text-white mt-2">Team Members</div>
             </div>
           </div>
 
@@ -77,7 +77,7 @@ const Hero = () => {
                 <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
               ))}
             </div>
-            <blockquote className="text-lg md:text-xl text-white/90 italic mb-4">
+            <blockquote className="text-lg md:text-xl text-white italic mb-4">
               "John's design work transformed our brand completely. The attention to detail and creative vision 
               exceeded all our expectations. Highly recommended!"
             </blockquote>
@@ -87,7 +87,7 @@ const Hero = () => {
               </div>
               <div className="text-left">
                 <div className="font-semibold text-white">Sarah Johnson</div>
-                <div className="text-sm text-white/70">CEO, TechStart Inc.</div>
+                <div className="text-sm text-white">CEO, TechStart Inc.</div>
               </div>
             </div>
           </div>
@@ -131,21 +131,21 @@ const Hero = () => {
                   <span className="text-white font-semibold">E-commerce UI</span>
                 </div>
                 <h4 className="text-white font-medium">Fashion Website Redesign</h4>
-                <p className="text-white/70 text-sm">UI/UX Design</p>
+                <p className="text-white text-sm">UI/UX Design</p>
               </div>
               <div className="bg-white/5 rounded-lg p-4 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all">
                 <div className="w-full h-32 bg-gradient-to-br from-green-400 to-blue-400 rounded-lg mb-3 flex items-center justify-center">
                   <span className="text-white font-semibold">Brand Identity</span>
                 </div>
                 <h4 className="text-white font-medium">Coffee Startup Brand</h4>
-                <p className="text-white/70 text-sm">Brand Design</p>
+                <p className="text-white text-sm">Brand Design</p>
               </div>
               <div className="bg-white/5 rounded-lg p-4 backdrop-blur-sm border border-white/10 hover:bg-white/10 transition-all">
                 <div className="w-full h-32 bg-gradient-to-br from-orange-400 to-red-400 rounded-lg mb-3 flex items-center justify-center">
                   <span className="text-white font-semibold">Campaign</span>
                 </div>
                 <h4 className="text-white font-medium">Environmental Campaign</h4>
-                <p className="text-white/70 text-sm">Campaign Design</p>
+                <p className="text-white text-sm">Campaign Design</p>
               </div>
             </div>
           </div>
